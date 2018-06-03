@@ -1,0 +1,104 @@
+
+@font-face {
+    font-family: "Calibri.ttf";
+    src: url("../fonts/Calibri.ttf");
+  }
+
+html, body{
+  margin: 0;
+  padding: 0;
+  font-family: "Calibri.ttf";
+}
+
+.top{
+  background-image: url(../images/header-bg.jpg);
+  background-size: cover;
+  height: 605px;
+}
+
+.row{
+  display: flex;
+  align-items: center;
+  padding-top: 10px;
+}
+
+/* HEADER */
+
+.logo img{
+  padding-left: 40px;
+}
+
+.nav-item a{
+  color: white;
+  font-size: 1em;
+}
+
+.nav-item a:hover{
+  color: #AC37C5;
+  text-shadow: 1px 1px 1px black;
+  border-left: 2px solid #AC37C5;
+}
+
+#boutonbuy{
+ background: #8a0a75;white
+ background-image: -webkit-linear-gradient(top, #8a0a75, #c92fad);
+ background-image: -moz-linear-gradient(top, #8a0a75, #c92fad);
+ background-image: -ms-linear-gradient(top, #8a0a75, #c92fad);
+ background-image: -o-linear-gradient(top, #8a0a75, #c92fad);
+ background-image: linear-gradient(to bottom, #8a0a75, #c92fad);
+ -webkit-border-radius: 48;
+ -moz-border-radius: 48;
+ border-radius: 48px;
+ -webkit-box-shadow: 0px 1px 3px #ffffff;
+ -moz-box-shadow: 0px 1px 3px #ffffff;
+ box-shadow: 0px 1px 3px #ffffff;
+ font-family: Arial;
+ color: #ffffff;
+ font-size: 18px;
+ padding: 8px 25px 8px 25px;
+ border: solid #ffffff 2px;
+ text-decoration: none;
+}
+
+#boutonbuy:hover {
+ background: #c112e8;
+ text-decoration: none;
+ transition: 0.5s;
+ cursor: pointer;
+ box-shadow: 1px 1px 10px black;
+}
+
+/* HEADER MIDDLE */
+
+.ico-middle{
+  display: flex;
+  justify-content: center;
+}
+
+.ico-middle i{
+  font-size: 40px;
+  color: white;
+  opacity: 0.5;
+}
+
+.ico-middle i:hover{
+  opacity: inherit;
+  color: #B637D0;
+  text-shadow: 1px 1px 2px black;
+  transition: 0.5s;
+}
+
+.text-middle{
+  padding: 80px 0px 0px 95px;
+  font-size: 50px;
+  color: white;
+}
+
+.text-middle span{
+  font-size: 14px;
+}
+
+.text-middle p{
+  margin: 0;
+  line-height: 55px;
+}
